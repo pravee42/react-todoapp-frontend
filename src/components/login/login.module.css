@@ -1,0 +1,47 @@
+.input_box {
+    border: solid 2px blue;
+    outline: none;
+    margin: 20px 0 0 30px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.input_box::-webkit-input-placeholder {
+    /* Edge */
+    color: grey;
+    font-weight: bold;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.button {
+    margin: 20px 0 0 30px;
+    border:none;
+    cursor: pointer;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+@media (max-width: 769px) {
+    .form_container {
+        margin: 0 10px 20px 10px;
+        width: 90%;
+        border-radius: 20px;
+        overflow: visible;
+        height: auto;
+        padding: 20px 0 20px 0;
+    }
+}

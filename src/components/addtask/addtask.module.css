@@ -1,0 +1,71 @@
+.input_box {
+    border:none;
+    border-bottom: 2px solid;
+    padding: 5px;
+    margin: 10px 0 0 10px;
+    outline: none;
+    transition: .3s;
+}
+
+.input_box:focus {
+    border-bottom: 2px solid blue;
+    animation: alternate-reverse;
+    padding:7px;
+    font-size:15px;
+}
+
+.option_list {
+    margin: 30px 0 0 10px;   
+    border:none;
+    padding:5px;
+}
+
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 70%;
+}
+
+.option {
+    color: black;
+}
+
+@media (min-width: 769px) {
+    .div{
+        width: 40%
+    }
+    .div1 {
+        display: flex;
+        justify-content: center;    
+    }
+}
+
+
+
+@media (max-width: 769px) {
+    .div {
+        width: 90%;
+    }
+
+    .div1 {
+        justify-content: center;
+    }
+
+
+    .option_list {
+        margin: 20px 0 0 10px;
+        width: auto;
+        outline: none;
+    }
+
+    .option {
+        background-color:black;
+        color: white;
+    }
+    .option:hover{
+        color:red;
+        background-color:black;
+    }
+}

@@ -1,0 +1,81 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+@media  (max-width: 770px) {
+    .App {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+.category {
+    float: right;
+    margin-right: 50px;
+}
+
+@media (max-width: 770px) {
+    .category {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.router_page {
+    width: 79%;
+    position: absolute;
+    height: 60vh;
+    margin: 0 0 0 50px;
+    border-radius: 20px 0 0 20px;
+    background: rgb(229, 226, 226);
+    overflow: auto;
+}
+
+.router_page::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+.router_page::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.router_page::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0.44, rgb(122, 153, 217)),
+            color-stop(0.72, rgb(73, 125, 189)),
+            color-stop(0.86, rgb(28, 58, 148)));
+}
+
+
+@media (min-width: 769px) {
+    .router_page {
+        margin: 0 20px 20px 20px;
+        width: 70%;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .router_page {
+        margin: 0 10px 20px 10px;
+        width: 90%;
+        border-radius: 20px;
+        overflow: visible;
+        height: auto;
+        padding: 20px 0 20px 0;
+    }
+}

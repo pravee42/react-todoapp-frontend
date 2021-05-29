@@ -1,0 +1,72 @@
+.task_data {
+    width: 70%;
+    height: 50px;
+    border-radius: 18px;
+    background: rgb(253, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bell MT";
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.task_data1 {
+    width: 70%;
+    height: 50px;
+    border-radius: 18px;
+    background: rgb(253, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bell MT";
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.task_data:hover {
+    cursor: pointer;
+    animation: alternate-reverse 1s;
+    box-shadow: 5px 7px 25px rgba(65, 10, 82, 0.267);
+}
+
+.task_data1:hover {
+    cursor: pointer;
+    animation: alternate-reverse 1s;
+    box-shadow: 5px 7px 25px rgba(65, 10, 82, 0.267);
+}
+
+
+.task {
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button_style {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 400px) {
+    .task_data {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .task_data1 {
+        font-size: 20px;
+        height: auto;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+.Categoryitem {
+    width: 150px;
+    height: 53px;
+    border-radius: 40px;
+    background: #e5f4ff;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin: 20px 0 0 30px
+}
+
+.Categoryitem1 {
+    width: 150px;
+    height: 53px;
+    border-radius: 40px;
+    background: #F4F5F6;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 30px
+}
+
+.link {
+    text-decoration: none;
+    font-family: "Bell MT";
+    font-size: 30px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}

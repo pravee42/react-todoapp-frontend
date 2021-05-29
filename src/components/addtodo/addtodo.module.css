@@ -1,0 +1,30 @@
+.addtodo {
+    width: 200px;
+    height: 40px;
+    border-radius: 28px;
+    background: transparent;
+    border: 2px solid #8200f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 110px 0 0 0;
+}
+
+@media (max-width: 770px) {
+    .addtodo {
+       margin: 12px 0 12px 0;
+   }
+}
+
+
+.addtodo_text {
+    font-family: "Bell MT";
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+    text-align: left;
+    color: #8200f3;
+    width: 100%;
+}

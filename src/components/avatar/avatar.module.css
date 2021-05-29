@@ -1,0 +1,22 @@
+.avatarcircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fcfafa;
+    border: 2px solid #8200f3;
+    display: flex;
+    align-items: flex-end;
+    place-content: center;
+}
+
+.avatar_component {
+    margin: 30px 0 0 30px;
+}
+
+.userlogin {
+    font-size: 20px;
+    width: 100px;
+    color:#8200f3;
+    text-decoration: none;
+    font-weight: 700;
+}
